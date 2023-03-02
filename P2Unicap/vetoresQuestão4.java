@@ -19,7 +19,7 @@ public class vetoresQuestão4 {
             sc.nextLine();// limpeza do buffer de entrada
             System.out.println("informe a nota 2 do aluno: ");
             notas2[i] = sc.nextDouble();
-            sc.nextLine();//limpeza do buffer de entrada
+            sc.nextLine();//limpeza do buffer de entrada ()
 
         } for(i = 0; i < nomes.length; i++){
             medias[i] = (notas1[i]*2 + notas2[i]*3)/5;
