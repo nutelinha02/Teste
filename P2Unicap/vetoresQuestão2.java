@@ -8,9 +8,9 @@ public class vetoresQuestão2{
         int vetA[] = new int[tam];
         int i;
         int maior = 0;
-        int menor = 0;
+        int menor;
         for(i = 0; i < vetA.length; i++){
-            System.out.println("vetor A "+ (i+1));
+            System.out.printf("vetor A %d : ",(i+1));
             vetA[i] = sc.nextInt();
             menor = vetA[i];
             if (maior <=vetA[i]){
@@ -32,5 +32,7 @@ public class vetoresQuestão2{
 
     }System.out.println("maior valor: "+maior);
     System.out.println("menor valor: "+menor);
+    
+
 }
 }
